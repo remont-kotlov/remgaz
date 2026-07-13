@@ -1,4 +1,5 @@
-body { background: rgb(167, 182, 243);
+body { background: rgb(35, 166, 241);
+    font-family: "Roboto", sans-serif;
 
 }
 .hero { background-image: url("image1.webp");
@@ -54,5 +55,9 @@ section img {
 }
 
 
-
+h1, h2 {
+ font-family: "Montserrat", sans-serif;
+ font-weight: 700
+ ;
+}
 
