@@ -10,20 +10,7 @@ body { background: rgb(181, 222, 247);
    
 }
 
-.hero {
-    position: relative;
-}
 
-.hero-phone {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    z-index: 10;
-}
 
 
 p { font-size: 20px;
@@ -201,4 +188,14 @@ h3, h4, h5, h6 {
 .service {
     font-size: 25px;
     line-height: 1.8;
+}
+footer {
+    background: #83b6f5;
+    
+}
+footer p {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    text-align: center;
 }
