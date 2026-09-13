@@ -8,7 +8,9 @@ body {
 
 main {
     background: rgb(181, 222, 247);
-    
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -27,12 +29,16 @@ footer p {
 
 
 .hero { 
+      
     background-image: url("image1.webp");
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
     height: 400px;
-   
 }
+   
+
 
 
 
@@ -76,13 +82,13 @@ h1, h2 {
 }
 
 
-.image1,
-.image2  {
-    width: 48%; }
-.image1 {   float: left;
+.image1
+    {  
+    width: 100%;
+    float: none;
             }
-.image2 { float: right;
-          margin-right: 3%;  }
+
+
 .maintext {
         font-size: 35px;
 }
