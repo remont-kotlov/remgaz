@@ -1,9 +1,7 @@
-
-body { 
+body {
     background: rgb(181, 222, 247);
     font-family: "Roboto", sans-serif;
     margin: 0;
-   
 }
 
 main {
@@ -13,23 +11,7 @@ main {
     box-sizing: border-box;
 }
 
-
-footer {
-    background: #93bff5;
-    
-    
-}
-footer p {
-    font-size: 14px;
-    font-family: 'Times New Roman';
-    font-style: normal;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-.hero { 
-      
+.hero {
     background-image: url("image1.webp");
     background-size: cover;
     background-position: center;
@@ -37,18 +19,22 @@ footer p {
     width: 100vw;
     height: 400px;
 }
-   
 
-
-
-
-
-p { font-size: 20px;
-    font-style: italic;
-   
+h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
 
+p {
+    font-size: 20px;
+    font-style: italic;
+}
 
 section img {
     display: block;
@@ -57,120 +43,74 @@ section img {
     border-radius: 50%;
     object-fit: cover;
     margin: 20px auto;
-
-}
-.social { 
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 30px;
-}
-.social img {
-    width: 40px;
-    height: 40px;
-}
-.my-icon {
-    width: 30px;
-    height: 30px;
 }
 
-
-h1, h2 {
- font-family: "Montserrat", sans-serif;
- font-weight: 700
- ;
-}
-
-
-.image1
-    {  
-    width: 100%;
-    float: none;
-            }
-
-
-.maintext {
-        font-size: 35px;
-}
-.secondtext {
-        font-size: 30px;   
-}
-.text3 {
-    font-size: 30px;
-    font-style: italic;
-}
-.problems {
-    font-size: 25px;
-    line-height: 1.8;
-}
-h3, h4, h5, h6 {
+h3,
+h4,
+h5 {
     font-size: 25px;
 }
-.reiting {
-    font-size: 25px;
-    line-height: 1.8;
-}
+
 .phone-button {
     position: fixed;
     right: 20px;
     bottom: 20px;
-
     width: 60px;
     height: 60px;
-
     border-radius: 50%;
     background: #71aef0;
-    
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-
     z-index: 1000;
-  
-
 }
+
 .phone-button img {
     width: 40px;
     height: 40px;
-    
     animation: shake 0.3s infinite;
 }
 
 @keyframes shake {
     0%, 70%, 100% {
-    
-    transform: rotate(0);
+        transform: rotate(0);
     }
+
     72% {
         transform: rotate(-20deg);
-
     }
+
     74% {
-        tranform: rotate(20deg);
+        transform: rotate(20deg);
     }
-    76% { transform:rotate(-20deg);
+
+    76% {
+        transform: rotate(-20deg);
     }
-    78% { transform: rotate(20deg);
-            }
-   80% {tranform: rotate(-10deg);
 
-   }
-   82% {tranform: rotate(10deg);
+    78% {
+        transform: rotate(20deg);
+    }
 
-   }
-   84% {transform: rotate(0);
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    82% {
+        transform: rotate(10deg);
+    }
+
+    84% {
+        transform: rotate(0);
+    }
 }
-}
+
 .whatsapp {
     position: fixed;
     right: 20px;
     bottom: 110px;
-
     width: 60px;
-    height:60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,36 +123,50 @@ h3, h4, h5, h6 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-  
-
 }
+
 @keyframes whatsapp {
     0%, 100% {
-        transform: rotate (0);
-        
-}
-    72% { 
+        transform: rotate(0);
+    }
+
+    72% {
         transform: rotate(-20deg);
     }
-    74% {
-        transform: rotate (20deg);
 
+    74% {
+        transform: rotate(20deg);
     }
+
     76% {
         transform: rotate(-20deg);
     }
+
     78% {
-        transform: rotate (20deg);
+        transform: rotate(20deg);
     }
+
     80% {
         transform: rotate(-10deg);
     }
+
     82% {
         transform: rotate(10deg);
     }
+
     84% {
         transform: rotate(0);
     }
 }
- 
 
+footer {
+    background: #93bff5;
+}
+
+footer p {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
