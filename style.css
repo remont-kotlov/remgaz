@@ -11,14 +11,6 @@ main {
     box-sizing: border-box;
 }
 
-.hero {
-    background-image: url("image1.webp");
-    background-size: cover;
-    background-position: center;
-    margin-left: calc(50% - 50vw);
-    width: 100vw;
-    height: 400px;
-}
 
 h1 {
     font-size: 35px;
@@ -161,6 +153,8 @@ h5 {
 
 footer {
     background: #93bff5;
+    padding: 15px 0;
+    margin: 0;
 }
 
 footer p {
@@ -169,4 +163,5 @@ footer p {
     font-style: normal;
     text-align: center;
     font-weight: bold;
+    margin: 5px 0;
 }
