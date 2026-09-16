@@ -11,14 +11,26 @@ main {
     box-sizing: border-box;
 }
 
+.hero {
+    background-image: url("image1.webp");
+    background-size: cover;
+    background-position: center;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 400px;
+}
+
+
+
 
 h1 {
-    font-size: 35px;
+    font-size: 33px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 
 h2 {
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
@@ -40,7 +52,7 @@ section img {
 h3,
 h4,
 h5 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .phone-button {
