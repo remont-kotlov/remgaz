@@ -10,14 +10,26 @@ main {
     padding-right: 10px;
     box-sizing: border-box;
 }
+ main > img {
+    width: calc(100% + 20px);
+    height: auto;
+    display: block;
+    margin-left: -10px;
+ }
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 100%;
 
-.hero {
-    background-image: url("image1.webp");
-    background-size: cover;
-    background-position: center;
-    margin-left: calc(50% - 50vw);
-    width: 100vw;
-    height: 400px;
+}
+
+.services img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -182,3 +194,4 @@ footer p {
     font-weight: bold;
     margin: 5px 0;
 }
+
